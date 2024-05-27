@@ -1,0 +1,14 @@
+id_car                          - UNSIGNED INT - PRIMARY_KEY (NOT NULL, UNIQUE) - AUTO_INCREMENT
+brand                           - VARCHAR(255) NOT NULL
+model                           - VARCHAR(255) NOT NULL
+color                           - VARCHAR(255) NOT NULL
+plate                           - VARCHAR (15) NOT NULL - UNIQUE
+car_registration                - YEAR NOT NULL
+km_travelled                    - UNSIGNED MEDIUMINT NOT NULL
+fuel                            - VARCHAR(255) NOT NULL
+engine                          - VARCHAR(255)
+seats                           - UNSIGNED TINYINT
+available                       - VARCHAR(255) NOT NULL
+list_image_path                 - TEXT NOT NULL
+description                     - TEXT
+price                           - DECIMAL(8,2) NOT NULL
